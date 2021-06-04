@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - node # use latest node
+jobs:
+  fast finish: true
+env:
+  - CI=false
+services:
+  - mongodb
+
+before_install:
+  - npm install -g npm # install lastest version of npm
+# default install
+before_script:
+  - npm run build # build distribution
+# default test

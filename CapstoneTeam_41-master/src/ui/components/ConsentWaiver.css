@@ -1,0 +1,20 @@
+p.DataUseParagraph {
+  color: white;
+}
+p.LiabilityWaiverParagraph {
+  color: white;
+}
+.ConsentWaiver > p {
+  color: white;
+}
+
+.DataUseConsent > h1 {
+  color: white;
+}
+.LiabilityWaiver > h1 {
+  color: white;
+}
+
+.ConsentWaiver {
+  background-color: #1c1c1c;
+}

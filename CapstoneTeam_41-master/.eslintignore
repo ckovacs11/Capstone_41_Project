@@ -1,0 +1,8 @@
+# never lint modules
+node_modules
+# dont lint coverage report
+coverage
+# dont lint test cases
+test
+# ignore eslint files
+.eslintrc.js
