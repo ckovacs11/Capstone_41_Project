@@ -9,8 +9,7 @@ const bcrypt = require('bcrypt');
 const User = require('./User');
 //import from Mongoose & MongoDB
 import * as http from "http"
-
-mongoose.connect('mongodb+srv://CapstoneTeam401:CTeam2020@cluster0.xangr.mongodb.net/HrSupportApp?retryWrites=true&w=majority');
+//mongoose connection uri deleted for security purposes
 /*
 router.post("/addNewUser", (req: http.IncomingMessage, res: http.ServerResponse, next: http.) => {
     bcrypt.hash(req.body.pwd, 10, (err, hash) => {
